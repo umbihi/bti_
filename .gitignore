@@ -1,0 +1,28 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.design-cache/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+.DS_Store
+
+# Secrets (API keys)
+.env
+.env.*
+!.env.example
+
+# Build cache
+tsconfig.tsbuildinfo
+
+# QA 실측 결과: 최종 전체 실행분만 보관
+qa/results/*
+!qa/results/live-2026-10-29T10-38-05-362Z.json
