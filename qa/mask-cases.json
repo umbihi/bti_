@@ -1,0 +1,11 @@
+{
+  "_comment": "가명화 회귀 시험. mustMask: 마스킹 후 남아 있으면 안 되는 문자열, mustKeep: 오탐 방지를 위해 그대로 남아야 하는 문자열.",
+  "cases": [
+    { "id": "m-school-abbr", "text": "서울대 출신 동료와 일했고 KAIST와 연세대에서 연구했습니다. 포스텍 졸업생도 만났습니다.", "mustMask": ["서울대", "KAIST", "연세대", "포스텍"], "mustKeep": [] },
+    { "id": "m-school-context", "text": "한빛대 출신 선배와 달빛대 졸업 후 일한 동료를 만났습니다.", "mustMask": ["한빛대", "달빛대"], "mustKeep": [] },
+    { "id": "m-school-en", "text": "Seoul National University 와 University of Tokyo, Stanford University 에서 공부했습니다.", "mustMask": ["Seoul National University", "University of Tokyo", "Stanford University"], "mustKeep": [] },
+    { "id": "m-name-title", "text": "홍길동 팀장과 김철수님, 이영희 선배, 박민수 교수님께 배웠습니다.", "mustMask": ["홍길동", "김철수", "이영희", "박민수"], "mustKeep": ["팀장", "선배"] },
+    { "id": "m-address", "text": "서울시 강남구 테헤란로 123-4 와 서울특별시 마포구 월드컵북로 21길 5, 경기도 성남시 분당구 판교동 12번지에 거주했습니다.", "mustMask": ["테헤란로", "월드컵북로", "판교동"], "mustKeep": [] },
+    { "id": "m-keep-generic", "text": "프로젝트 팀장을 맡았고 서울에서 자랐습니다. 대기업 인턴으로 시대에 맞는 서비스를 만들었고, 서울대공원 봉사와 고객님 응대, 한국인 대표 사례 분석, 대리점 관리를 했습니다.", "mustMask": [], "mustKeep": ["프로젝트 팀장", "서울에서", "대기업", "시대에", "서울대공원", "고객님", "한국인 대표", "대리점"] }
+  ]
+}

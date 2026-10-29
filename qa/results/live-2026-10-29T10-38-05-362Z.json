@@ -1,0 +1,1226 @@
+{
+  "model": "gemini-3.1-flash-lite",
+  "runs": 3,
+  "p50": 4815.007600000012,
+  "p95": 20008.6469,
+  "meanConsistency": 0.9249999999999999,
+  "fakeEviTotal": 3,
+  "eviTotal": 368,
+  "fakeSugTotal": 0,
+  "sugTotal": 171,
+  "piiLeaks": 0,
+  "report": [
+    {
+      "id": "biz-1",
+      "kind": "excellent",
+      "consistency": 1,
+      "avgSufficient": 4,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 17925.4629,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 1,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": false,
+          "ms": 20012.353700000003,
+          "error": "TIMEOUT(20s)"
+        },
+        {
+          "ok": true,
+          "ms": 8447.177799999998,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "biz-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 1,
+      "runs": [
+        {
+          "ok": false,
+          "ms": 20008.6469,
+          "error": "TIMEOUT(20s)"
+        },
+        {
+          "ok": true,
+          "ms": 4438.344399999987,
+          "verdicts": [
+            "needs_work",
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 6697.4274000000005,
+          "verdicts": [
+            "needs_work",
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "biz-3",
+      "kind": "vague",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4255.6106,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": false,
+          "ms": 20007.637299999988,
+          "error": "TIMEOUT(20s)"
+        },
+        {
+          "ok": true,
+          "ms": 5115.330499999982,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "biz-4",
+      "kind": "pii",
+      "consistency": 1,
+      "avgSufficient": 2,
+      "runs": [
+        {
+          "ok": false,
+          "ms": 20010.939700000017,
+          "error": "TIMEOUT(20s)"
+        },
+        {
+          "ok": true,
+          "ms": 3476.7304000000004,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "sufficient",
+            "sufficient",
+            "insufficient"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4125.707599999994,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "sufficient",
+            "sufficient",
+            "insufficient"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "pln-1",
+      "kind": "excellent",
+      "consistency": 1,
+      "avgSufficient": 4,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 8144.446399999986,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 1,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 2960.3262000000104,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 1,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 2849.510900000023,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 1,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "pln-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 1,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 9241.06210000001,
+          "verdicts": [
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4252.24430000002,
+          "verdicts": [
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4392.527999999991,
+          "verdicts": [
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "pln-3",
+      "kind": "vague",
+      "consistency": 0.4,
+      "avgSufficient": 0.6666666666666666,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 7705.879400000005,
+          "verdicts": [
+            "insufficient",
+            "sufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 16489.9191,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 4,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 6799.12360000005,
+          "verdicts": [
+            "needs_work",
+            "sufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "pln-4",
+      "kind": "pii",
+      "consistency": 0.8,
+      "avgSufficient": 0.6666666666666666,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4181.327400000009,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 5964.844400000002,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 17526.30249999999,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "it-1",
+      "kind": "excellent",
+      "consistency": 1,
+      "avgSufficient": 4,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3103.86109999998,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 2787.36189999996,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3314.666499999992,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "it-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 10049.11050000001,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 5779.805899999978,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3965.9238999999943,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "it-3",
+      "kind": "vague",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3286.8335999999545,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 6604.285200000042,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3746.8457000000053,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "it-4",
+      "kind": "pii",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4367.776599999983,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4586.941699999967,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 14522.208500000008,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "dsn-1",
+      "kind": "excellent",
+      "consistency": 0.8,
+      "avgSufficient": 3.6666666666666665,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3665.1565999999875,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 8,
+          "fakeEvidence": 1,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3256.8990999999805,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3093.9365000000107,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 1,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "dsn-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3296.8607000000193,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 2977.883299999987,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4415.845399999991,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "dsn-3",
+      "kind": "vague",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3357.8673999999883,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4504.188799999945,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4843.22629999998,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "dsn-4",
+      "kind": "pii",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4144.81959999993,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 15149.679100000067,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 9351.582700000028,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "sal-1",
+      "kind": "excellent",
+      "consistency": 1,
+      "avgSufficient": 4,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 9119.709200000041,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3478.9905000000726,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 8,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 12565.8348999999,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 9,
+          "fakeEvidence": 1,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "sal-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 2,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 12969.026799999992,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3475.467799999984,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 6911.511700000032,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "sal-3",
+      "kind": "vague",
+      "consistency": 0.8,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4489.0307999999495,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 4,
+          "fakeEvidence": 0,
+          "rawSuggestions": 4,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 9057.976600000053,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4815.007600000012,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 4,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "sal-4",
+      "kind": "pii",
+      "consistency": 0.4,
+      "avgSufficient": 0.5,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 4714.562900000019,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4854.008899999899,
+          "verdicts": [
+            "needs_work",
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": false,
+          "ms": 20003.89599999995,
+          "error": "TIMEOUT(20s)"
+        }
+      ]
+    },
+    {
+      "id": "eng-1",
+      "kind": "excellent",
+      "consistency": 1,
+      "avgSufficient": 4,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 11029.813399999985,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 6,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 5606.96510000003,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3423.8127000000095,
+          "verdicts": [
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 2,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "eng-2",
+      "kind": "listing",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 3349.024800000014,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 5635.078300000052,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 5961.728899999987,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "insufficient",
+            "needs_work",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "eng-3",
+      "kind": "vague",
+      "consistency": 1,
+      "avgSufficient": 0,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 8935.883499999996,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4755.329499999993,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 4091.1641999999993,
+          "verdicts": [
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient",
+            "insufficient"
+          ],
+          "rawEvidence": 7,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        }
+      ]
+    },
+    {
+      "id": "eng-4",
+      "kind": "pii",
+      "consistency": 1,
+      "avgSufficient": 1,
+      "runs": [
+        {
+          "ok": true,
+          "ms": 8126.573500000057,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": true,
+          "ms": 3847.5037999999477,
+          "verdicts": [
+            "needs_work",
+            "insufficient",
+            "needs_work",
+            "sufficient",
+            "not_applicable"
+          ],
+          "rawEvidence": 5,
+          "fakeEvidence": 0,
+          "rawSuggestions": 3,
+          "fakeSuggestions": 0
+        },
+        {
+          "ok": false,
+          "ms": 20012.218799999915,
+          "error": "TIMEOUT(20s)"
+        }
+      ]
+    }
+  ]
+}
